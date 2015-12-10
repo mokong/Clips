@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-CopyExtension-FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CopyExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MKOCClips-FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MKOCClips.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>63D6B9D0805D84F914A8924A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A02A6B41C46E2AF82CFA424B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5987841CF8A529CCEA4B4FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF93623C6A5E692A6865BCBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

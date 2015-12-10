@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1C233079699F9D2DB12A22 /* libPods-CopyExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA487E1BDF863D61FFF8F1 /* libPods-CopyExtension.a */; };
+		3E7F98C71BAA983F009355FA /* MKCurrentPasteBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F98C51BAA983F009355FA /* MKCurrentPasteBoardCell.m */; };
+		3E7F98C81BAA983F009355FA /* MKCurrentPasteBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7F98C61BAA983F009355FA /* MKCurrentPasteBoardCell.xib */; };
+		3EF610CE1BA90B6500117E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF610CD1BA90B6500117E04 /* main.m */; };
+		3EF610D11BA90B6500117E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF610D01BA90B6500117E04 /* AppDelegate.m */; };
+		3EF610D41BA90B6500117E04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF610D31BA90B6500117E04 /* ViewController.m */; };
+		3EF610D71BA90B6500117E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF610D51BA90B6500117E04 /* Main.storyboard */; };
+		3EF610D91BA90B6500117E04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF610D81BA90B6500117E04 /* Images.xcassets */; };
+		3EF610DC1BA90B6500117E04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF610DA1BA90B6500117E04 /* LaunchScreen.xib */; };
+		3EF610E81BA90B6600117E04 /* MKOCClipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF610E71BA90B6600117E04 /* MKOCClipsTests.m */; };
+		3EF610F91BA90BE500117E04 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF610F81BA90BE500117E04 /* NotificationCenter.framework */; };
+		3EF610FF1BA90BE500117E04 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF610FE1BA90BE500117E04 /* TodayViewController.m */; };
+		3EF611011BA90BE500117E04 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF611001BA90BE500117E04 /* MainInterface.storyboard */; };
+		3EF611041BA90BE500117E04 /* CopyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3EF610F61BA90BE500117E04 /* CopyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3EF6110B1BA90CD100117E04 /* CopyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6110A1BA90CD100117E04 /* CopyHandler.m */; };
+		3EF6110C1BA90CD800117E04 /* CopyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6110A1BA90CD100117E04 /* CopyHandler.m */; };
+		3EF6110F1BA912B800117E04 /* MKCopyTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6110E1BA912B800117E04 /* MKCopyTableSectionHeaderView.m */; };
+		3EF611131BA9148100117E04 /* MKCopyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF611111BA9148100117E04 /* MKCopyTableViewCell.m */; };
+		3EF611141BA9148100117E04 /* MKCopyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF611121BA9148100117E04 /* MKCopyTableViewCell.xib */; };
+		3EF611211BA91F2800117E04 /* MKCopyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF611201BA91F2800117E04 /* MKCopyItem.m */; };
+		3EF611221BA91F2800117E04 /* MKCopyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF611201BA91F2800117E04 /* MKCopyItem.m */; };
+		969FC32623284FA774F1009B /* libPods-MKOCClips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C2E346314F3813511FD1D8 /* libPods-MKOCClips.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF610E21BA90B6600117E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF610C01BA90B6500117E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF610C71BA90B6500117E04;
+			remoteInfo = MKOCClips;
+		};
+		3EF611021BA90BE500117E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF610C01BA90B6500117E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF610F51BA90BE500117E04;
+			remoteInfo = CopyExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EF611081BA90BE500117E04 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3EF611041BA90BE500117E04 /* CopyExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01C2E346314F3813511FD1D8 /* libPods-MKOCClips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKOCClips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AAD9CA36784EAC02B2F2ED /* Pods-MKOCClips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKOCClips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKOCClips/Pods-MKOCClips.debug.xcconfig"; sourceTree = "<group>"; };
+		04DA487E1BDF863D61FFF8F1 /* libPods-CopyExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CopyExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7F98C41BAA983F009355FA /* MKCurrentPasteBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCurrentPasteBoardCell.h; sourceTree = "<group>"; };
+		3E7F98C51BAA983F009355FA /* MKCurrentPasteBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCurrentPasteBoardCell.m; sourceTree = "<group>"; };
+		3E7F98C61BAA983F009355FA /* MKCurrentPasteBoardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKCurrentPasteBoardCell.xib; sourceTree = "<group>"; };
+		3EF610C81BA90B6500117E04 /* MKOCClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKOCClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF610CC1BA90B6500117E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF610CD1BA90B6500117E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF610CF1BA90B6500117E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF610D01BA90B6500117E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EF610D21BA90B6500117E04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EF610D31BA90B6500117E04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EF610D61BA90B6500117E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF610D81BA90B6500117E04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EF610DB1BA90B6500117E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3EF610E11BA90B6600117E04 /* MKOCClipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKOCClipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF610E61BA90B6600117E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF610E71BA90B6600117E04 /* MKOCClipsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKOCClipsTests.m; sourceTree = "<group>"; };
+		3EF610F11BA90B8200117E04 /* MKOCClips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MKOCClips.entitlements; sourceTree = "<group>"; };
+		3EF610F61BA90BE500117E04 /* CopyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CopyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF610F81BA90BE500117E04 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		3EF610FC1BA90BE500117E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF610FD1BA90BE500117E04 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		3EF610FE1BA90BE500117E04 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		3EF611001BA90BE500117E04 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		3EF611091BA90CD100117E04 /* CopyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyHandler.h; sourceTree = "<group>"; };
+		3EF6110A1BA90CD100117E04 /* CopyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyHandler.m; sourceTree = "<group>"; };
+		3EF6110D1BA912B800117E04 /* MKCopyTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCopyTableSectionHeaderView.h; sourceTree = "<group>"; };
+		3EF6110E1BA912B800117E04 /* MKCopyTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCopyTableSectionHeaderView.m; sourceTree = "<group>"; };
+		3EF611101BA9148100117E04 /* MKCopyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCopyTableViewCell.h; sourceTree = "<group>"; };
+		3EF611111BA9148100117E04 /* MKCopyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCopyTableViewCell.m; sourceTree = "<group>"; };
+		3EF611121BA9148100117E04 /* MKCopyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKCopyTableViewCell.xib; sourceTree = "<group>"; };
+		3EF6111F1BA91F2800117E04 /* MKCopyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCopyItem.h; sourceTree = "<group>"; };
+		3EF611201BA91F2800117E04 /* MKCopyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCopyItem.m; sourceTree = "<group>"; };
+		3EF611231BA94F0F00117E04 /* CopyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CopyExtension.entitlements; sourceTree = "<group>"; };
+		4D66C50B9F611C0AA127D6D7 /* Pods-MKOCClips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKOCClips.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKOCClips/Pods-MKOCClips.release.xcconfig"; sourceTree = "<group>"; };
+		6A0C32A3A958BC2DA1AD60CF /* Pods-CopyExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CopyExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-CopyExtension/Pods-CopyExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E1D14D2765543D52794A98A7 /* Pods-CopyExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CopyExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CopyExtension/Pods-CopyExtension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF610C51BA90B6500117E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969FC32623284FA774F1009B /* libPods-MKOCClips.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF610DE1BA90B6600117E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF610F31BA90BE500117E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF610F91BA90BE500117E04 /* NotificationCenter.framework in Frameworks */,
+				0F1C233079699F9D2DB12A22 /* libPods-CopyExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF610BF1BA90B6500117E04 = {
+			isa = PBXGroup;
+			children = (
+				3EF610CA1BA90B6500117E04 /* MKOCClips */,
+				3EF610E41BA90B6600117E04 /* MKOCClipsTests */,
+				3EF610FA1BA90BE500117E04 /* CopyExtension */,
+				3EF610F71BA90BE500117E04 /* Frameworks */,
+				3EF610C91BA90B6500117E04 /* Products */,
+				70EA55C279B5EA18E912CF9D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF610C91BA90B6500117E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610C81BA90B6500117E04 /* MKOCClips.app */,
+				3EF610E11BA90B6600117E04 /* MKOCClipsTests.xctest */,
+				3EF610F61BA90BE500117E04 /* CopyExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF610CA1BA90B6500117E04 /* MKOCClips */ = {
+			isa = PBXGroup;
+			children = (
+				3EF611171BA91C8B00117E04 /* controller */,
+				3EF611161BA91C8600117E04 /* model */,
+				3EF611151BA91C8100117E04 /* view */,
+				3EF610CF1BA90B6500117E04 /* AppDelegate.h */,
+				3EF610D01BA90B6500117E04 /* AppDelegate.m */,
+				3EF610D51BA90B6500117E04 /* Main.storyboard */,
+				3EF610CB1BA90B6500117E04 /* Supporting Files */,
+			);
+			path = MKOCClips;
+			sourceTree = "<group>";
+		};
+		3EF610CB1BA90B6500117E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610F11BA90B8200117E04 /* MKOCClips.entitlements */,
+				3EF610D81BA90B6500117E04 /* Images.xcassets */,
+				3EF610DA1BA90B6500117E04 /* LaunchScreen.xib */,
+				3EF610CC1BA90B6500117E04 /* Info.plist */,
+				3EF610CD1BA90B6500117E04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF610E41BA90B6600117E04 /* MKOCClipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610E71BA90B6600117E04 /* MKOCClipsTests.m */,
+				3EF610E51BA90B6600117E04 /* Supporting Files */,
+			);
+			path = MKOCClipsTests;
+			sourceTree = "<group>";
+		};
+		3EF610E51BA90B6600117E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610E61BA90B6600117E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF610F71BA90BE500117E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610F81BA90BE500117E04 /* NotificationCenter.framework */,
+				01C2E346314F3813511FD1D8 /* libPods-MKOCClips.a */,
+				04DA487E1BDF863D61FFF8F1 /* libPods-CopyExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF610FA1BA90BE500117E04 /* CopyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3EF611231BA94F0F00117E04 /* CopyExtension.entitlements */,
+				3EF610FD1BA90BE500117E04 /* TodayViewController.h */,
+				3EF610FE1BA90BE500117E04 /* TodayViewController.m */,
+				3EF611001BA90BE500117E04 /* MainInterface.storyboard */,
+				3EF610FB1BA90BE500117E04 /* Supporting Files */,
+			);
+			path = CopyExtension;
+			sourceTree = "<group>";
+		};
+		3EF610FB1BA90BE500117E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610FC1BA90BE500117E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF611151BA91C8100117E04 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3EF6110D1BA912B800117E04 /* MKCopyTableSectionHeaderView.h */,
+				3EF6110E1BA912B800117E04 /* MKCopyTableSectionHeaderView.m */,
+				3EF611101BA9148100117E04 /* MKCopyTableViewCell.h */,
+				3EF611111BA9148100117E04 /* MKCopyTableViewCell.m */,
+				3EF611121BA9148100117E04 /* MKCopyTableViewCell.xib */,
+				3E7F98C41BAA983F009355FA /* MKCurrentPasteBoardCell.h */,
+				3E7F98C51BAA983F009355FA /* MKCurrentPasteBoardCell.m */,
+				3E7F98C61BAA983F009355FA /* MKCurrentPasteBoardCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		3EF611161BA91C8600117E04 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3EF6111F1BA91F2800117E04 /* MKCopyItem.h */,
+				3EF611201BA91F2800117E04 /* MKCopyItem.m */,
+				3EF611091BA90CD100117E04 /* CopyHandler.h */,
+				3EF6110A1BA90CD100117E04 /* CopyHandler.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3EF611171BA91C8B00117E04 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EF610D21BA90B6500117E04 /* ViewController.h */,
+				3EF610D31BA90B6500117E04 /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		70EA55C279B5EA18E912CF9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02AAD9CA36784EAC02B2F2ED /* Pods-MKOCClips.debug.xcconfig */,
+				4D66C50B9F611C0AA127D6D7 /* Pods-MKOCClips.release.xcconfig */,
+				E1D14D2765543D52794A98A7 /* Pods-CopyExtension.debug.xcconfig */,
+				6A0C32A3A958BC2DA1AD60CF /* Pods-CopyExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF610C71BA90B6500117E04 /* MKOCClips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF610EB1BA90B6600117E04 /* Build configuration list for PBXNativeTarget "MKOCClips" */;
+			buildPhases = (
+				722CF884EA8D2F2070C6CC12 /* Check Pods Manifest.lock */,
+				3EF610C41BA90B6500117E04 /* Sources */,
+				3EF610C51BA90B6500117E04 /* Frameworks */,
+				3EF610C61BA90B6500117E04 /* Resources */,
+				3EF611081BA90BE500117E04 /* Embed App Extensions */,
+				4C60007C9B06FB90CC99EBA2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF611031BA90BE500117E04 /* PBXTargetDependency */,
+			);
+			name = MKOCClips;
+			productName = MKOCClips;
+			productReference = 3EF610C81BA90B6500117E04 /* MKOCClips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF610E01BA90B6600117E04 /* MKOCClipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF610EE1BA90B6600117E04 /* Build configuration list for PBXNativeTarget "MKOCClipsTests" */;
+			buildPhases = (
+				3EF610DD1BA90B6600117E04 /* Sources */,
+				3EF610DE1BA90B6600117E04 /* Frameworks */,
+				3EF610DF1BA90B6600117E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF610E31BA90B6600117E04 /* PBXTargetDependency */,
+			);
+			name = MKOCClipsTests;
+			productName = MKOCClipsTests;
+			productReference = 3EF610E11BA90B6600117E04 /* MKOCClipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF610F51BA90BE500117E04 /* CopyExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF611051BA90BE500117E04 /* Build configuration list for PBXNativeTarget "CopyExtension" */;
+			buildPhases = (
+				0214DA4FE6D614894320CF6B /* Check Pods Manifest.lock */,
+				3EF610F21BA90BE500117E04 /* Sources */,
+				3EF610F31BA90BE500117E04 /* Frameworks */,
+				3EF610F41BA90BE500117E04 /* Resources */,
+				FD27E6D4856303D919BE84C0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyExtension;
+			productName = CopyExtension;
+			productReference = 3EF610F61BA90BE500117E04 /* CopyExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF610C01BA90B6500117E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wiwide;
+				TargetAttributes = {
+					3EF610C71BA90B6500117E04 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5C5VJ8LFGP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3EF610E01BA90B6600117E04 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3EF610C71BA90B6500117E04;
+					};
+					3EF610F51BA90BE500117E04 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5C5VJ8LFGP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3EF610C31BA90B6500117E04 /* Build configuration list for PBXProject "MKOCClips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF610BF1BA90B6500117E04;
+			productRefGroup = 3EF610C91BA90B6500117E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF610C71BA90B6500117E04 /* MKOCClips */,
+				3EF610E01BA90B6600117E04 /* MKOCClipsTests */,
+				3EF610F51BA90BE500117E04 /* CopyExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF610C61BA90B6500117E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F98C81BAA983F009355FA /* MKCurrentPasteBoardCell.xib in Resources */,
+				3EF610D71BA90B6500117E04 /* Main.storyboard in Resources */,
+				3EF610DC1BA90B6500117E04 /* LaunchScreen.xib in Resources */,
+				3EF611141BA9148100117E04 /* MKCopyTableViewCell.xib in Resources */,
+				3EF610D91BA90B6500117E04 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF610DF1BA90B6600117E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF610F41BA90BE500117E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF611011BA90BE500117E04 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0214DA4FE6D614894320CF6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C60007C9B06FB90CC99EBA2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKOCClips/Pods-MKOCClips-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		722CF884EA8D2F2070C6CC12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD27E6D4856303D919BE84C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CopyExtension/Pods-CopyExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF610C41BA90B6500117E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF610D41BA90B6500117E04 /* ViewController.m in Sources */,
+				3EF611211BA91F2800117E04 /* MKCopyItem.m in Sources */,
+				3E7F98C71BAA983F009355FA /* MKCurrentPasteBoardCell.m in Sources */,
+				3EF6110B1BA90CD100117E04 /* CopyHandler.m in Sources */,
+				3EF611131BA9148100117E04 /* MKCopyTableViewCell.m in Sources */,
+				3EF610D11BA90B6500117E04 /* AppDelegate.m in Sources */,
+				3EF6110F1BA912B800117E04 /* MKCopyTableSectionHeaderView.m in Sources */,
+				3EF610CE1BA90B6500117E04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF610DD1BA90B6600117E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF610E81BA90B6600117E04 /* MKOCClipsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF610F21BA90BE500117E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF610FF1BA90BE500117E04 /* TodayViewController.m in Sources */,
+				3EF611221BA91F2800117E04 /* MKCopyItem.m in Sources */,
+				3EF6110C1BA90CD800117E04 /* CopyHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF610E31BA90B6600117E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF610C71BA90B6500117E04 /* MKOCClips */;
+			targetProxy = 3EF610E21BA90B6600117E04 /* PBXContainerItemProxy */;
+		};
+		3EF611031BA90BE500117E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF610F51BA90BE500117E04 /* CopyExtension */;
+			targetProxy = 3EF611021BA90BE500117E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF610D51BA90B6500117E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF610D61BA90B6500117E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF610DA1BA90B6500117E04 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF610DB1BA90B6500117E04 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF610E91BA90B6600117E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EF610EA1BA90B6600117E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF610EC1BA90B6600117E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AAD9CA36784EAC02B2F2ED /* Pods-MKOCClips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MKOCClips/MKOCClips.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MKOCClips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3EF610ED1BA90B6600117E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D66C50B9F611C0AA127D6D7 /* Pods-MKOCClips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MKOCClips/MKOCClips.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MKOCClips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3EF610EF1BA90B6600117E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKOCClipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKOCClips.app/MKOCClips";
+			};
+			name = Debug;
+		};
+		3EF610F01BA90B6600117E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKOCClipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKOCClips.app/MKOCClips";
+			};
+			name = Release;
+		};
+		3EF611061BA90BE500117E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D14D2765543D52794A98A7 /* Pods-CopyExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CopyExtension/CopyExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CopyExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3EF611071BA90BE500117E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0C32A3A958BC2DA1AD60CF /* Pods-CopyExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CopyExtension/CopyExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CopyExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF610C31BA90B6500117E04 /* Build configuration list for PBXProject "MKOCClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF610E91BA90B6600117E04 /* Debug */,
+				3EF610EA1BA90B6600117E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF610EB1BA90B6600117E04 /* Build configuration list for PBXNativeTarget "MKOCClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF610EC1BA90B6600117E04 /* Debug */,
+				3EF610ED1BA90B6600117E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF610EE1BA90B6600117E04 /* Build configuration list for PBXNativeTarget "MKOCClipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF610EF1BA90B6600117E04 /* Debug */,
+				3EF610F01BA90B6600117E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF611051BA90BE500117E04 /* Build configuration list for PBXNativeTarget "CopyExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF611061BA90BE500117E04 /* Debug */,
+				3EF611071BA90BE500117E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF610C01BA90B6500117E04 /* Project object */;
+}
